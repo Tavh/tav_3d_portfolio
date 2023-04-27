@@ -12,6 +12,18 @@ import {
     tailwind,
     nodejs,
     mongodb,
+    aws,
+    elasticsearch,
+    go,
+    java,
+    kafka,
+    kotlin,
+    kubernetes,
+    postgres,
+    python,
+    scala,
+    spring_boot,
+    sqlite,
     git,
     figma,
     docker,
@@ -22,7 +34,13 @@ import {
     carrent,
     jobit,
     tripguide,
+    teletrace,
+    opentelemetry,
+    vmclarity,
     threejs,
+    hapoalim,
+    one_zero,
+    cisco
   } from "../assets";
   
   export const navLinks = [
@@ -42,129 +60,114 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
       title: "Backend Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Data Engineer",
+      icon: web,
+    },
+    {
+      title: "Speaker",
+      icon: mobile,
+    },
+    {
+      title: "Mentor",
       icon: creator,
     },
   ];
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
     },
     {
       name: "docker",
       icon: docker,
     },
+    {
+      name: "aws",
+      icon: aws,
+    },
+    {
+      name: "elasticsearch",
+      icon: elasticsearch,
+    },
+    {
+      name: "go",
+      icon: go,
+    },
+    {
+      name: "java",
+      icon: java,
+    },
+    {
+      name: "kotlin",
+      icon: kotlin,
+    },
+    {
+      name: "scala",
+      icon: scala,
+    },
+    {
+      name: "spring_boot",
+      icon: spring_boot,
+    },
+    {
+      name: "kafka",
+      icon: kafka,
+    },
+    {
+      name: "kubernetes",
+      icon: kubernetes,
+    },
+    {
+      name: "postgres",
+      icon: postgres,
+    },
+    {
+      name: "sqlite",
+      icon: sqlite,
+    },
+    {
+      name: "python",
+      icon: python,
+    },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Backend Developer",
+      company_name: "Hapoalim Bank",
+      icon: hapoalim,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "April 2019 - June 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "2019-2020 - Improved the quality of the bank's new primary application by developing and owning the back-end system while assisting front-end developers passionately and professionally",
+        "2020-2021 - Took part in deploying a high quality micro-service cluster that served an important feature of the 'Bit' application by designing, developing and owning modern Java-Spring applications on top of an on-prem Kubernetes cluster while mentoring and assisting fellow developers",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Backend Developer",
+      company_name: "One Zero",
+      icon: one_zero,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "June 2021 - January 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Helped in bringing the bank's massive system to life by developing and owning an important layer implemented in a complex and modern technology stack (Spring Webflux, Kotlin, GraphQL, etc...) deployed on AWS EKS while providing professional and kind assistance to front-end developers and QA",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Software engineer",
+      company_name: "Cisco",
+      icon: cisco,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Led the design and implementation of a highly scalable data pipeline using Kafka, Java, and Scala. Implemented gRPC services in Python and owned the full CI/CD pipeline for Java applications.",
+        "Took on a variety of challenges, including quickly learning Golang and React. Refactored the front-end's entire state management to Zustand, resulting in improved reliability and maintainability. Designed and implemented an optimized relational schema for the application's embedded database.",
+        "Beyond technical contributions, Had several opportunities to educate and inspire others. by mentoring an intern from an underrepresented group through the 'PlaceIL' project, instructed groups of new employees in the tools and platforms used at the company and delivered several lectures on topics such as Reactive Programming and Learning Strategies"
       ],
     },
   ];
@@ -198,67 +201,67 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Teletrace",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Teletrace is an open-source distributed tracing system that helps developers monitor and troubleshoot complex distributed systems by providing end-to-end transaction monitoring and tracing across various microservices. Teletrace is built from the ground up for modern applications. It relies on open standards like OpenTelemetry. It is an easy-to-deploy scalable solution, that supports multiple storage options.",
       tags: [
         {
-          name: "react",
+          name: "GoLang",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "React",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Elasticsearch",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: teletrace,
+      source_code_link: "https://github.com/teletrace/teletrace",
     },
     {
-      name: "Job IT",
+      name: "OpenTelemetry",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "OpenTelemetry is an observability framework – an API, SDK, and tools that are designed to aid in the generation and collection of application telemetry data such as metrics, logs, and traces",
       tags: [
         {
-          name: "react",
+          name: "Java",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "gRPC",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "gradle",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: opentelemetry,
+      source_code_link: "https://github.com/open-telemetry/opentelemetry-java",
     },
     {
-      name: "Trip Guide",
+      name: "VMClarity",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "VMClarity is an open source tool for agentless detection and management of Virtual Machine Software Bill Of Materials (SBOM) and security threats such as vulnerabilities, exploits, malware, rootkits, misconfigurations and leaked secrets",
       tags: [
         {
-          name: "nextjs",
+          name: "GoLang",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "EC2",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "ClamAV",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: vmclarity,
+      source_code_link: "https://github.com/openclarity/vmclarity",
     },
   ];
   

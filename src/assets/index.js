@@ -20,15 +20,36 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import java from "./tech/java.png"
+import kotlin from "./tech/kotlin.png"
+import sqlite from "./tech/sqlite.png"
+import scala from "./tech/scala.png"
+import spring_boot from "./tech/spring_boot.png"
+import kubernetes from "./tech/kubernetes.png"
+import elasticsearch from "./tech/elasticsearch.png"
+import go from "./tech/go.png"
+import python from "./tech/python.png"
+import kafka from "./tech/kafka.png"
+import postgres from "./tech/postgres.png"
+import aws from "./tech/aws.png"
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import hapoalim from "./company/hapoalim.png";
+import one_zero from "./company/one_zero.jpeg";
+import cisco from "./company/cisco.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import teletrace from "./teletrace.png";
+import opentelemetry from "./opentelemetry.png";
+import vmclarity from "./vmclarity.png";
+
+import tav from "./tav.jpeg"
 
 export {
   logo,
@@ -52,11 +73,30 @@ export {
   tailwind,
   typescript,
   threejs,
+  aws,
+  elasticsearch,
+  go,
+  java,
+  kafka,
+  kotlin,
+  kubernetes,
+  postgres,
+  python,
+  scala,
+  spring_boot,
+  sqlite,
   meta,
   shopify,
   starbucks,
   tesla,
+  hapoalim,
+  one_zero,
+  cisco,
   carrent,
   jobit,
   tripguide,
+  teletrace,
+  opentelemetry,
+  vmclarity,
+  tav,
 };

@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
+import { tav } from '../assets';
 
 const Hero = () => {
   return (
@@ -25,8 +26,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Here i'll write what I do <br className="sm:block hidden"/>
-            And this text will not be in a different line on mobile
+            A Passionate and driven Software Engineer <br className="sm:block hidden"/>
           </p>
         </div>
       </div>

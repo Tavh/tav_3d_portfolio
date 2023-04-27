@@ -39,8 +39,7 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Expertise</h2>
       </motion.div>
 
       <motion.p
@@ -48,8 +47,7 @@ const About = () => {
         className="mt-4 text-secondary text-[17px]
         max-w-3xl leading-[30px]"
       >
-        Skilled software developer, yada yada yada
-        gotta fill this up later
+        {/* My experience is broken down as: */}
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
