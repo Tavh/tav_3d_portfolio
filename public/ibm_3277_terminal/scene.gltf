@@ -1,0 +1,446 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1105,
+      "max": [
+        2.207979917526245,
+        3.667710065841675,
+        8.104339599609375
+      ],
+      "min": [
+        -6.3152899742126465,
+        -3.667710065841675,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 13260,
+      "componentType": 5126,
+      "count": 1105,
+      "max": [
+        1.0,
+        1.0,
+        0.9999396204948425
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1105,
+      "max": [
+        0.9962800145149231,
+        0.9945300221443176
+      ],
+      "min": [
+        0.007350000087171793,
+        0.007639999967068434
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 3594,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 26520,
+      "componentType": 5126,
+      "count": 81,
+      "max": [
+        1.905419945716858,
+        2.0141799449920654,
+        7.412409782409668
+      ],
+      "min": [
+        1.4581199884414673,
+        -2.0141799449920654,
+        4.587460041046143
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 27492,
+      "componentType": 5126,
+      "count": 81,
+      "max": [
+        0.9996753931045532,
+        0.17975586652755737,
+        0.22434647381305695
+      ],
+      "min": [
+        0.9426608085632324,
+        -0.17975586652755737,
+        -0.28120917081832886
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 8840,
+      "componentType": 5126,
+      "count": 81,
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 14376,
+      "componentType": 5125,
+      "count": 384,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 28464,
+      "componentType": 5126,
+      "count": 2145,
+      "max": [
+        5.555560111999512,
+        3.636359930038452,
+        1.3685100078582764
+      ],
+      "min": [
+        -3.432499885559082,
+        -5.111189842224121,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 54204,
+      "componentType": 5126,
+      "count": 2145,
+      "max": [
+        1.0,
+        1.0,
+        0.9997109770774841
+      ],
+      "min": [
+        -0.9991987347602844,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 9488,
+      "componentType": 5126,
+      "count": 2145,
+      "max": [
+        0.9313899874687195,
+        0.9841399788856506
+      ],
+      "min": [
+        0.006719999946653843,
+        0.006719999946653843
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 15912,
+      "componentType": 5125,
+      "count": 5280,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "maxdragonn (https://sketchfab.com/maxdragon)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/ibm-3277-terminal-68d92f0653be47119142e4b14c2715e0",
+      "title": "IBM 3277 terminal"
+    },
+    "generator": "Sketchfab-12.67.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 37032,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 26648,
+      "byteOffset": 37032,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 79944,
+      "byteOffset": 63680,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 143624,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/ibm_3277_baseColor.png"
+    },
+    {
+      "uri": "textures/display_baseColor.png"
+    },
+    {
+      "uri": "textures/display_emissive.png"
+    },
+    {
+      "uri": "textures/ibm_3277_keyboard_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "ibm_3277",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.810373079425302
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0.06,
+        0.06,
+        0.06
+      ],
+      "emissiveTexture": {
+        "index": 2
+      },
+      "name": "display",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.17195489727547442,
+        "roughnessFactor": 0.11666484261471766
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "ibm_3277_keyboard",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6218877113620196
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "ibm_3277_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "ibm_3277_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "ibm_3277_2",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        4
+      ],
+      "name": "Root"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        -0.29086000000000006,
+        0.9551700000000001,
+        -0.05519000000000001,
+        0.0,
+        -0.7711,
+        -0.19988000000000003,
+        0.6045200000000001,
+        0.0,
+        0.5663900000000001,
+        0.21839000000000003,
+        0.7946700000000001,
+        0.0,
+        4.076250000000001,
+        1.00545,
+        5.903860000000001,
+        1.0
+      ],
+      "name": "Lamp"
+    },
+    {
+      "name": "Lamp"
+    },
+    {
+      "children": [
+        5,
+        6,
+        7
+      ],
+      "matrix": [
+        3.2076000000000002,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.2076000000000002,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.2076000000000002,
+        0.0,
+        0.0,
+        30.0,
+        0.0,
+        1.0
+      ],
+      "name": "ibm_3277"
+    },
+    {
+      "mesh": 0,
+      "name": "ibm_3277_0"
+    },
+    {
+      "mesh": 1,
+      "name": "ibm_3277_1"
+    },
+    {
+      "mesh": 2,
+      "name": "ibm_3277_2"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    }
+  ]
+}

@@ -78,18 +78,18 @@ import {
   ];
   
   const technologies = [
-    {
-      name: "git",
-      icon: git,
-    },
+    // {
+    //   name: "git",
+    //   icon: git,
+    // },
     {
       name: "docker",
       icon: docker,
     },
-    {
-      name: "aws",
-      icon: aws,
-    },
+    // {
+    //   name: "aws",
+    //   icon: aws,
+    // },
     {
       name: "elasticsearch",
       icon: elasticsearch,
@@ -102,18 +102,18 @@ import {
       name: "java",
       icon: java,
     },
-    {
-      name: "kotlin",
-      icon: kotlin,
-    },
-    {
-      name: "scala",
-      icon: scala,
-    },
-    {
-      name: "spring_boot",
-      icon: spring_boot,
-    },
+    // {
+    //   name: "kotlin",
+    //   icon: kotlin,
+    // },
+    // {
+    //   name: "scala",
+    //   icon: scala,
+    // },
+    // {
+    //   name: "spring_boot",
+    //   icon: spring_boot,
+    // },
     {
       name: "kafka",
       icon: kafka,
@@ -126,26 +126,27 @@ import {
       name: "postgres",
       icon: postgres,
     },
-    {
-      name: "sqlite",
-      icon: sqlite,
-    },
-    {
-      name: "python",
-      icon: python,
-    },
+    // {
+    //   name: "sqlite",
+    //   icon: sqlite,
+    // },
+    // {
+    //   name: "python",
+    //   icon: python,
+    // },
   ];
   
   const experiences = [
     {
-      title: "Backend Developer",
-      company_name: "Hapoalim Bank",
-      icon: hapoalim,
+      title: "Software engineer",
+      company_name: "Cisco",
+      icon: cisco,
       iconBg: "#383E56",
-      date: "April 2019 - June 2021",
+      date: "Jan 2022 - Today",
       points: [
-        "2019-2020 - Improved the quality of the bank's new primary application by developing and owning the back-end system while assisting front-end developers passionately and professionally",
-        "2020-2021 - Took part in deploying a high quality micro-service cluster that served an important feature of the 'Bit' application by designing, developing and owning modern Java-Spring applications on top of an on-prem Kubernetes cluster while mentoring and assisting fellow developers",
+        "Led the design and implementation of a highly scalable data pipeline using Kafka, Java, and Scala. Implemented gRPC services in Python and owned the full CI/CD pipeline for Java applications.",
+        "Took on a variety of challenges, including quickly learning Golang and React. Refactored the front-end's entire state management to Zustand, resulting in improved reliability and maintainability. Designed and implemented an optimized relational schema for the application's embedded database.",
+        "Beyond technical contributions, Had several opportunities to educate and inspire others. by mentoring an intern from an underrepresented group through the 'PlaceIL' project, instructed groups of new employees in the tools and platforms used at the company and delivered several lectures on topics such as Reactive Programming and Learning Strategies"
       ],
     },
     {
@@ -159,15 +160,14 @@ import {
       ],
     },
     {
-      title: "Software engineer",
-      company_name: "Cisco",
-      icon: cisco,
+      title: "Backend Developer",
+      company_name: "Hapoalim Bank",
+      icon: hapoalim,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "April 2019 - June 2021",
       points: [
-        "Led the design and implementation of a highly scalable data pipeline using Kafka, Java, and Scala. Implemented gRPC services in Python and owned the full CI/CD pipeline for Java applications.",
-        "Took on a variety of challenges, including quickly learning Golang and React. Refactored the front-end's entire state management to Zustand, resulting in improved reliability and maintainability. Designed and implemented an optimized relational schema for the application's embedded database.",
-        "Beyond technical contributions, Had several opportunities to educate and inspire others. by mentoring an intern from an underrepresented group through the 'PlaceIL' project, instructed groups of new employees in the tools and platforms used at the company and delivered several lectures on topics such as Reactive Programming and Learning Strategies"
+        "2019-2020 - Improved the quality of the bank's new primary application by developing and owning the back-end system while assisting front-end developers passionately and professionally",
+        "2020-2021 - Took part in deploying a high quality micro-service cluster that served an important feature of the 'Bit' application by designing, developing and owning modern Java-Spring applications on top of an on-prem Kubernetes cluster while mentoring and assisting fellow developers",
       ],
     },
   ];
