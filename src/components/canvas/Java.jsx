@@ -4,8 +4,8 @@ import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 
 import CanvasLoader from '../Loader';
 
-const Computers = ({ isMobile }) => {
-  const computer = useGLTF('./ibm_3277_terminal/scene.gltf');
+const Java = ({ isMobile }) => {
+  const computer = useGLTF('./java/scene.gltf');
 
   return (
     <mesh>
@@ -21,15 +21,15 @@ const Computers = ({ isMobile }) => {
       />
       <primitive 
         object={computer.scene}
-        scale={isMobile ? 0.08 : 0.15}
-        position={isMobile ? [-0, -1.5, 2.2] : [-0, -2.5, 4]}
-        rotation={isMobile ? [-0.0, -0, 0] : [-0.00, -0, 0]}
+        scale={isMobile ? 0.7 : 1.2}
+        position={[-0, -1.2, 0]}
+        rotation={[-0.00, -4.8, 0]}
       />
     </mesh>
   )
 }
 
-const ComputersCanvas = () => {
+const JavaCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -61,7 +61,7 @@ const ComputersCanvas = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
-        <Computers isMobile={isMobile} />
+        <Java isMobile={isMobile} />
       </Suspense>
 
       <Preload all />  
@@ -69,4 +69,4 @@ const ComputersCanvas = () => {
   )
 }
 
-export default ComputersCanvas
+export default JavaCanvas

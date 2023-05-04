@@ -1,10 +1,14 @@
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
-import { ComputersCanvas } from './canvas';
+import { ComputersCanvas, JavaCanvas } from './canvas';
 import { tav } from '../assets';
 
 const Hero = () => {
+  const components = [<ComputersCanvas />,  <JavaCanvas />];
+  const randomIndex = Math.floor(Math.random() * components.length);
+  const RandomComponent = components[randomIndex];
+
   return (
     <section className="relative w-full h-screen mx-auto">
       <div className={`${styles.paddingX} absolute
@@ -31,7 +35,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+      {RandomComponent}
 
       <div className="absolute xs:bottom-10 
       bottom-32 w-full flex justify-center
