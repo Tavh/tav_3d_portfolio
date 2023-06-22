@@ -4,7 +4,30 @@ import { styles } from '../styles';
 import { ComputersCanvas, JavaCanvas } from './canvas';
 import { tav } from '../assets';
 
+import React, { useState, useEffect } from "react";
+
 const Hero = () => {
+  const [iframeDimensions, setIframeDimensions] = useState({
+    width: window.innerWidth > 1280 ? 1280 : window.innerWidth,
+    height: ((window.innerWidth > 1280 ? 1280 : window.innerWidth) / 16) * 9
+  });
+
+  useEffect(() => {
+    function handleResize() {
+      const newWidth = window.innerWidth > 1280 ? 1280 : window.innerWidth;
+      setIframeDimensions({
+        width: newWidth,
+        height: (newWidth / 16) * 9
+      });
+    }
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   const components = [<ComputersCanvas />,  <JavaCanvas />];
   const randomIndex = Math.floor(Math.random() * components.length);
   const RandomComponent = components[randomIndex];
@@ -35,7 +58,19 @@ const Hero = () => {
         </div>
       </div>
 
-      {RandomComponent}
+      <div className="absolute inset-0 flex justify-center items-center" style={{ marginTop: '100px' }}>
+        <iframe 
+          width={iframeDimensions.width} 
+          height={iframeDimensions.height} 
+          src="https://www.youtube.com/embed/msNjvbKlWRE"
+          frameBorder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowFullScreen 
+          title="Embedded youtube" 
+        />
+      </div>
+
+      {/* {RandomComponent} */} // Random 3D model, unnecessary when the video is present
 
       <div className="absolute xs:bottom-10 
       bottom-32 w-full flex justify-center
@@ -58,10 +93,10 @@ const Hero = () => {
             />
           </div>
         </a>
-        
       </div>
     </section>
   )
 }
 
-export default Hero
+export default Hero;
+
