@@ -1,38 +1,11 @@
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { ComputersCanvas, JavaCanvas } from './canvas';
-import { tav } from '../assets';
 
-import React, { useState, useEffect } from "react";
+
 
 const Hero = () => {
-  let initialWidth = window.innerWidth <= 500 ? window.innerWidth :
-                     window.innerWidth <= 720 ? 500 :
-                     window.innerWidth <= 1800 ? 500 : 1280;
-  const [iframeDimensions, setIframeDimensions] = useState({
-    width: initialWidth,
-    height: (initialWidth / 16) * 9
-  });
-
-  useEffect(() => {
-    function handleResize() {
-      let newWidth = window.innerWidth <= 500 ? window.innerWidth :
-                     window.innerWidth <= 720 ? 500 :
-                     window.innerWidth <= 1800 ? 720 : 1280;
-      setIframeDimensions({
-        width: newWidth,
-        height: (newWidth / 16) * 9
-      });
-    }
-
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-
-  const components = [<ComputersCanvas />,  <JavaCanvas />];
+  const components = [<ComputersCanvas />];
   const randomIndex = Math.floor(Math.random() * components.length);
   const RandomComponent = components[randomIndex];
 
@@ -48,7 +21,7 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm &nbsp;
             <span className="text-[#915eff]">
-              Tav
+              Tav Herzlich
             </span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
@@ -57,22 +30,12 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="absolute inset-0 flex justify-center items-center" style={{ marginTop: '200px' }}>
-        <iframe 
-          width={iframeDimensions.width} 
-          height={iframeDimensions.height} 
-          src="https://www.youtube.com/embed/msNjvbKlWRE"
-          frameBorder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowFullScreen 
-          title="Embedded youtube" 
-        />
-      </div>
 
-      {/* {RandomComponent} */} // Random 3D model, unnecessary when the video is present
-
+    
+      {RandomComponent}
+    
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
-        <a href="#about">
+        <a href="#work">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div 
               animate={{

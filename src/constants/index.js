@@ -48,9 +48,14 @@ import {
       id: "about",
       title: "About",
     },
+    
     {
       id: "work",
       title: "Work",
+    },
+    {
+      id: "media",
+      title: "Media",
     },
     {
       id: "contact",
@@ -76,6 +81,19 @@ import {
       icon: creator,
     },
   ];
+
+  const media = [
+    {
+      title: "NDC Oslo 2023",
+      subtitle: "Efficient Learning for Developers: Tips and Strategies",
+      src: "https://www.youtube.com/embed/msNjvbKlWRE"
+    },
+    {
+      title: "PlaceIL Volunteering",
+      subtitle: "Promotional LinkedIn Video",
+      src: "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7077291748363767808"
+    }
+  ]
   
   const technologies = [
     // {
@@ -265,4 +283,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, media };
